@@ -3,7 +3,7 @@ const tasks = require('express').Router()
 const db = require('../models')
 const { Users, Tasks } = db 
 const { Op } = require('sequelize')
-const tasks = require('../models/users')
+const tasks = require('../models/tasks')
 
 // FIND ALL TASKS
 tasks.get('/', async (req, res) => {
